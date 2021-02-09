@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FETCH SPACE STATION</title>
+  <link href="style.css" rel="stylesheet">
+  <script defer type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <div id="top-row">
+    <h1>Space Station Numbers!</h1>
+    <button id="get-iss-location">Get Space Station Location!</button>
+    <form id="set-location">
+      <input type="text" id="set-latitude" placeholder="Enter Latitude" name="latitude">
+      <input type="text" id="set-longitude" placeholder="Enter Longitude" name="longitude">
+      <input type="submit" id="get-pass-time" value="Get ISS Pass Time for Location">
+    </form>
+    <h2>People in Space: <span id="num-in-space"></span></h2>
+  </div>
+  <div id="info-panel">
+    <div id="crew-div"> </div>
+    <div id="iss-location"> </div>
+    <div id="iss-pass-times"> </div>
+  </div>
+</body>
+</html>
